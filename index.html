@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="website icon" type=".png" href="assets/AudioPlayer logo.png">
+</head>
+
+<body>
+    <script src="js/script.js"></script>
+    <div class="container flex bg-black">
+
+        <div class="left">
+            <div class="home bg-grey m-1 rounded p-1">
+                <div class="close invert">
+                    <img src="assets/close-svgrepo-com.svg" alt="">
+                </div>
+                <div class="logo"><img class="" src="assets/AudioPlayer.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="assets/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="assets/search.svg" alt="search">search</li>
+                </ul>
+
+            </div>
+            <div class=" library  bg-black bg-grey rounded m-1 p-1">
+                <div class="heading">
+
+                    <img class="invert" src="assets/playlist.svg" alt="playlist">
+                    <h3>
+                        Your Library
+                    </h3>
+                    <img class="invert plus" src="assets/plus-svgrepo-com.svg" alt="plus">
+                </div>
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <img class="invert" src="assets//music.svg" alt="">
+                            <div class="info">
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <img src="assets/play.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
+                            <span data-encore-id="type">Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Safety Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
+                            <span data-encore-id="type">About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
+                            <span data-encore-id="type">Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right  m-1 rounded">
+            <div class="header">
+                <div class="nav invert">
+                    <div class="hamburgerContainer">
+                        <img class="hamburger " src="assets/hamburger-menu-svgrepo-com.svg" alt="">
+                        <img class="nextsvg" src="assets/previous-svgrepo-com.svg" alt="">
+                        <img class="nextsvg" src="assets/next-svgrepo-com.svg" alt="">
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="signup">Sign Up</button>
+                    <button class="login">Log In</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardcontainer">
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+                        </div>
+                    </div>
+                    <div class="aboveBar">
+                        <div class="songinfo"></div>
+                        <div class="songbutton">
+                            <img id="previous" src="assets/previous.svg" alt="Previous">
+                            <img id="play" src="pause.svg" alt="">
+                            <img id="next" src="assets/next.svg" alt="Next">
+                            <img class="volume" src="assets/volume.svg" alt="">
+                            <input type="range" class="range" name="volume">
+                        </div>
+                        <div class="songtime"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

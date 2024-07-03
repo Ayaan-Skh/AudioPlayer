@@ -1,0 +1,91 @@
+.border{
+    border: 2px solid red;
+    margin: 2px;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+justify-center{
+    justify-content: center;
+}
+.bg-black{
+    background-color: #6247aa;
+    color:#e2cfea;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #a06cd5;
+}
+.rounded{
+    border-radius: 5px;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+/* For WebKit browsers (Chrome, Safari, Edge) */
+/* Webkit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e2cfea;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e2cfea;
+    border-radius: 6px;
+    border: 3px solid #e2cfea;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #e2cfea #e2cfea;
+}
+/* Style the track */
+input[type="range"] {
+    -webkit-appearance:initial;
+    
+     width: 20%;
+   /* height: 6px; */
+    background: #e2cfea;
+    /* border-radius: 5px;
+    outline: none; */
+}
+
+/* Style the thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #e2cfea;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #e2cfea;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;  /* Thin scrollbar */
+    scrollbar-color: #555 #2c2c2c;  /* Thumb and track colors */
+}
